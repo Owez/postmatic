@@ -6,7 +6,7 @@ Postmatic is a simple reddit-to-instagram posting bot based upon a cli
 
 *Coming soon..*
 
-## Example `config.json`
+## Example config
 
 ```json
 {
@@ -23,3 +23,7 @@ Postmatic is a simple reddit-to-instagram posting bot based upon a cli
     "mins_per_upload": 1440
 }
 ```
+
+## Under-the-hood
+
+Postmatic uses a PRAW-based reddit fetcher and custom selenium for Instagram uploading so use at your own risk! Everything is written in Python and there are currently no plans to change anything major; this program is in maintenance-mode.
